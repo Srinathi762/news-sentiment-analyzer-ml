@@ -61,8 +61,6 @@ To develop a sentiment analysis model that:
 
 ---
 
-## Results for verification
-   - Confusion matrix -
 ## 💾 Model & Vectorizer Files
   
 To reuse the trained model:
