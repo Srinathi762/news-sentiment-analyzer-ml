@@ -61,6 +61,8 @@ To develop a sentiment analysis model that:
 
 ---
 
+## Results for verification
+   - Confusion matrix -
 ## 💾 Model & Vectorizer Files
   
 To reuse the trained model:
@@ -74,4 +76,6 @@ joblib.dump(vectorizer, 'tfidf_vectorizer.pkl')
 # Load later
 model = joblib.load('sentiment_model.pkl')
 vectorizer = joblib.load('tfidf_vectorizer.pkl')
+
+
 
