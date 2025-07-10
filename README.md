@@ -17,7 +17,7 @@ To develop a sentiment analysis model that:
 
 ## 🗃️ Dataset
 
-- **Source**: [Kaggle – News Sentiment Dataset]
+- **Source**: [Kaggle – https://www.kaggle.com/datasets/clovisdalmolinvieira/news-sentiment-analysis]
 - **Fields Used**:
   - `Description` – News content to analyze
   - `Sentiment` – Annotated sentiment label
@@ -65,7 +65,7 @@ To develop a sentiment analysis model that:
   
 To reuse the trained model:
 ```python
-import jobli
+import joblib
 
 # Save model
 joblib.dump(model, 'sentiment_model.pkl')
